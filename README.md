@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+<br><br>
+
+## TO DO - build and deploy (GitHub Pages)
+
+- in `angular.json` file change the `outputPath` attribute with `docs`
+- run `ng build --output-path docs --base-href <APP NAME>` (ex: angular-test)
+- add, commit and push to github repo
+- wait pages-build-deployment github workflow to complete its work
+- visit site published at `https://<YOUR ACCOUNT NAME>.github.io/<APP NAME>`
